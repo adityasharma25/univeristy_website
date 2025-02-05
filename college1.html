@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="college1.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+     <!---------About Us Content--------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci numquam quae quasi odit temporibus sunt doloremque voluptatibus autem ex deserunt facilis nesciunt recusandae dolor rerum commodi quisquam, voluptatum, optio reiciendis amet. Vel corporis esse commodi optio porro dolorum ut, iusto qui libero, impedit perspiciatis, eos nam sapiente! Molestiae nisi nihil vero cupiditate ut in molestias.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg">
+            </div>
+        </div>
+    </section>
+   
+
+    
+
+
+    <!----------Footer---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia amet doloremque cum, laboriosam iusto non dolor molestias.<br> Saepe consequuntur hic provident non ab vitae ipsa ut facilis ipsum reiciendis.</p>
+        <div class="icons">
+           <a href="https://m.facebook.com"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/HmritmHamidpur?s=20&t=rhdcH-XxblzPmildlyB4Vw"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/aditya-sharma-168a8b22a"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Aditya Sharma</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!--------JavaScript for Toggle Menu------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
